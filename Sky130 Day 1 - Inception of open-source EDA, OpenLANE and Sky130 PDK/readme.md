@@ -98,6 +98,7 @@ Thermal Considerations: Good floor planning also considers thermal distribution 
   2. physical verification
      * DRC-Design rules checking---final layout of design honors the design rules or not
      * LVS-layout vs schematic----- Make sure that the final layout matches with gatelevel netlist that was started with.
+# Introduction to OpenLANE and Strive chipsets
 
 
 

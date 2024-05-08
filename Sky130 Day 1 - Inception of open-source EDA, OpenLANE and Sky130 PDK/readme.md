@@ -59,6 +59,42 @@ Placement of I/O Pads: The I/O pads are strategically placed around the perimete
 Thermal Considerations: Good floor planning also considers thermal distribution across the chip to avoid hot spots which could potentially cause failure or degraded performance.
 ```
 
+<img width="806" alt="8" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/7255e284-07a5-4e0a-9d24-489fee76a878">
+
+<img width="539" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/46765fa4-9d2c-4894-9a5d-9bd65e086cc5">
+
+### PLacement
+* The cells from the netlist are placed onto the floorplan. This step involves determining the exact location for each cell to optimize performance and power efficiency while minimizing area.
+* placement is usually done in two key steps: Global Placement and Detailed Placement.
+
+  ![Screenshot 2024-05-08 134453](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/4f49ba05-45e6-4d19-a39e-952538b9b2b9)
+
+  # Global PLacement
+  * distribute cells across the layout area in a somewhat coarse manner without precisely positioning them can be overlapped
+  # Detailed Placement
+  * After global placement, detailed placement takes over to fine-tune the cell positions. This stage ensures that each cell is placed in a legal, manufacturable position that aligns with the exact grid and meets all spacing and design rules.
+
+### Clock Tree Synthesis (CTS)
+* A clock distribution network is created to deliver the clock signal to all parts of the chip with minimal skew and latency.
+
+
+  ![Screenshot 2024-05-08 135024](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/c2d61e8c-4471-4a84-872f-2a6fe25232b1)
+###  Routing
+*  the physical connections between different elements on the chip are established
+
+<img width="558" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/09e93315-baf1-4eee-b1c3-63a9f643f009">
+Metal Tracks and Routing Grid
+Metal Tracks: In ASIC design, metal tracks are predefined paths laid out in each metal layer of the chip. These tracks dictate where the interconnects can be placed. The tracks are aligned with the technology grid, which is defined by the manufacturing process' capabilities.
+Routing Grid: This grid is formed by the intersection of metal tracks. It can be vast, especially in complex designs with multiple layers and a high density of interconnects. The routing grid helps organize the placement of interconnects systematically and efficiently.
+
+ It is typically broken down into two main phases:
+
+1. Global Routing: The aim of global routing is to plan the paths of interconnects at a higher level. This step does not place the actual wires but rather creates a blueprint of how wires should travel across the chip.
+2. Detailed Routing: Using the guidelines set by global routing, detailed routing implements the actual physical wires within the confines of the defined routes.
+
+
+
+
 
    
      

@@ -25,12 +25,13 @@
    EDA tools are software tools used by engineers to design and analyze electronic systems (especially integrated circuits and PCBs). These tools cover everything from schematic capture, simulation, and          verification to placement, routing, and manufacturing preparation
    ```
 
-4. [PDK (Process Design Kit)](<img width="766" alt="5" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/109dc2b9-2148-4ed4-98a3-d6c53b55f7e7">)
+4. [PDK (Process Design Kit)]
+   <img width="766" alt="5" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/109dc2b9-2148-4ed4-98a3-d6c53b55f7e7">
 
    ```
    The PDK is crucial for ensuring that the ASIC can be successfully fabricated using a particular semiconductor manufacturing process. It guides the design rules, layer information, and electrical parameters.
    ```
-   [
+   
      
    
      

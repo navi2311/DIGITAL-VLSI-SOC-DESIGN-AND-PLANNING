@@ -11,6 +11,20 @@
 
    * These connections are crucial because they allow the die to communicate with external devices. The signals and power that the die needs to operate are transferred through these connections.
    * In `Core` all the digital logic will be placed. like the processor and Ips(synthesizable IPS and Non-synthesizable IPS)
+
+
+## SoC design and OpenLANE
+* When designing the ASIC chip several components and tools are needed to make the final  chip.
+1. RTL (Register Transfer Level) Design
+   ```
+   * At this level, you describe the behavior and structure of the system using code that specifies how data is transferred and processed within the circuit.
+   ```
+2.  IP (Intellectual Property) Cores
+3.   EDA Tools (Electronic Design Automation)
+```
+EDA tools are software tools used by engineers to design and analyze electronic systems (especially integrated circuits and PCBs). These tools cover everything from schematic capture, simulation, and verification to placement, routing, and manufacturing preparation
+```
+4. PDK (Process Design Kit)
      
    
      

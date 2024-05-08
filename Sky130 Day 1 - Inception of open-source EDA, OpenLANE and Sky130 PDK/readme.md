@@ -33,6 +33,24 @@
    ```
    The PDK is crucial for ensuring that the ASIC can be successfully fabricated using a particular semiconductor manufacturing process. It guides the design rules, layer information, and electrical parameters.
    ```
+## Simplified RTL2GDS flow
+
+
+<img width="823" alt="6" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/00de52eb-fa3e-438c-8daa-b5f5e9edc5e1">
+
+
+1.  Understanding the specs of the design
+2.  write the functionality of the design using HDL(Verilog,SV) and verify it
+3.  This is the starting point of `synthesis`
+### Synthesis
+
+![Screenshot 2024-05-08 132303](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/0974476a-f56b-43dd-a80a-60a622805199)
+* The synthesis tool reads the RTL description and, using the constraints and the standard cell library, generates the gate-level netlist
+`Standard Cell Libary`
+* Collection of pre-designed and pre-verified fundamental logic elements such as AND, OR, NOT gates, flip-flops, multiplexers, etc.
+
+### 
+
    
      
    

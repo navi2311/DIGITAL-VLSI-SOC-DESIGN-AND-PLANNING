@@ -98,7 +98,17 @@ Thermal Considerations: Good floor planning also considers thermal distribution 
   2. physical verification
      * DRC-Design rules checking---final layout of design honors the design rules or not
      * LVS-layout vs schematic----- Make sure that the final layout matches with gatelevel netlist that was started with.
-# Introduction to OpenLANE and Strive chipsets
+# Introduction to OpenLANE 
+* OpenLANE is a specialized tool designed for use with the SkyWater 130nm open PDK. It facilitates the hardening of macros and entire chip designs. OpenLANE operates in two distinct modes:
+
+1. **Autonomous Mode**: This is essentially a "push-button" flow where the user initiates the process, which then runs through to completion automatically. This approach is based on predefined timings, leading directly to the final GDSII output without requiring step-by-step intervention from the user.
+
+2. **Interactive Mode**: In this mode, users have the flexibility to execute commands and proceed through the design steps one at a time. This allows for more granular control and the opportunity to make adjustments at each stage of the design process.
+
+Additionally, OpenLANE includes a substantial library of design examples, featuring 43 designs along with their optimal configurations. This resource aids designers in understanding various configurations and applying best practices to their projects.
+
+<img width="797" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/5a9473bb-7b40-4de7-8df5-7824485ce49b">
+
 
 
 

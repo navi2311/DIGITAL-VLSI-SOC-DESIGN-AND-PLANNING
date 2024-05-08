@@ -49,7 +49,16 @@
 `Standard Cell Libary`
 * Collection of pre-designed and pre-verified fundamental logic elements such as AND, OR, NOT gates, flip-flops, multiplexers, etc.
 
-### 
+### Floorplan and Power Planning (FP+PP)
+
+* The objective is plan the silicon area and distribute the power ---Power Planning
+* Purpose of Floor Planning
+```
+Partitioning: The chip is divided into blocks or regions, each dedicated to a specific part of the circuit such as CPU, SRAM, Flash controller, I/O interfaces, etc. This helps in organizing the design to minimize interconnect lengths and improve performance.
+Placement of I/O Pads: The I/O pads are strategically placed around the perimeter of the chip. The placement is often determined by the package type and the physical connections that need to be made to other components in the system.
+Thermal Considerations: Good floor planning also considers thermal distribution across the chip to avoid hot spots which could potentially cause failure or degraded performance.
+```
+
 
    
      

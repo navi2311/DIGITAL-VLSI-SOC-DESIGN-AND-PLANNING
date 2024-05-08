@@ -83,14 +83,14 @@ Thermal Considerations: Good floor planning also considers thermal distribution 
 *  the physical connections between different elements on the chip are established
 
 <img width="558" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/09e93315-baf1-4eee-b1c3-63a9f643f009">
-Metal Tracks and Routing Grid
-Metal Tracks: In ASIC design, metal tracks are predefined paths laid out in each metal layer of the chip. These tracks dictate where the interconnects can be placed. The tracks are aligned with the technology grid, which is defined by the manufacturing process' capabilities.
-Routing Grid: This grid is formed by the intersection of metal tracks. It can be vast, especially in complex designs with multiple layers and a high density of interconnects. The routing grid helps organize the placement of interconnects systematically and efficiently.
+   # Metal Tracks and Routing Grid
+   Metal Tracks: In ASIC design, metal tracks are predefined paths laid out in each metal layer of the chip. These tracks dictate where the interconnects can be placed. The tracks are aligned with the          technology grid, which is defined by the manufacturing process' capabilities.
+   * Routing Grid: This grid is formed by the intersection of metal tracks. It can be vast, especially in complex designs with multiple layers and a high density of interconnects. The routing grid helps organize the placement of interconnects systematically and efficiently.
 
- It is typically broken down into two main phases:
+    It is typically broken down into two main phases:
 
-1. Global Routing: The aim of global routing is to plan the paths of interconnects at a higher level. This step does not place the actual wires but rather creates a blueprint of how wires should travel across the chip.
-2. Detailed Routing: Using the guidelines set by global routing, detailed routing implements the actual physical wires within the confines of the defined routes.
+   1. Global Routing: The aim of global routing is to plan the paths of interconnects at a higher level. This step does not place the actual wires but rather creates a blueprint of how wires should travel across the chip.
+   2. Detailed Routing: Using the guidelines set by global routing, detailed routing implements the actual physical wires within the confines of the defined routes.
 
 
 

@@ -91,6 +91,14 @@ Thermal Considerations: Good floor planning also considers thermal distribution 
 
    1. Global Routing: The aim of global routing is to plan the paths of interconnects at a higher level. This step does not place the actual wires but rather creates a blueprint of how wires should travel across the chip.
    2. Detailed Routing: Using the guidelines set by global routing, detailed routing implements the actual physical wires within the confines of the defined routes.
+### signoff
+* Final verification steps to ensure that the design meets all specifications, including timing, power, and manufacturability checks.
+*  Involves using verification tools like
+  1. static timing analysis-----to make all timing constraints are met
+  2. physical verification
+     * DRC-Design rules checking---final layout of design honors the design rules or not
+     * LVS-layout vs schematic----- Make sure that the final layout matches with gatelevel netlist that was started with.
+
 
 
 

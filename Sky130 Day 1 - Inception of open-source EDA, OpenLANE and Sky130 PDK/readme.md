@@ -6,6 +6,8 @@
         * for mechanical protection, thermal management, and electrical performance.
         *  DIP (Dual In-line Package), QFP (Quad Flat Package), BGA (Ball Grid Array), and CSP (Chip Scale Package)
         *  [QFN-48 package](![Screenshot 2024-05-08 121216](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/5f538cd7-58fa-46aa-bfd7-28d7148523e7)
+        *  [it will connected to chip with wires to interact without side world](![Screenshot 2024-05-08 121354](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/f18e7c8c-2825-41fd-8217-0a795d93db35)
+
 
       
    

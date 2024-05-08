@@ -26,6 +26,8 @@
    ```
 
 4. [PDK (Process Design Kit)]
+
+
    <img width="766" alt="5" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/109dc2b9-2148-4ed4-98a3-d6c53b55f7e7">
 
    ```

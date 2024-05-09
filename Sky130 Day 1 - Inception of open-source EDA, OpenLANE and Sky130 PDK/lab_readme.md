@@ -29,6 +29,24 @@ prep -desgin filename
 
 ```
 <img width="819" alt="2" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/732350a4-1901-4b1e-9c30-cb040cb55774">
+* after the prepration step we will see `cd Desktop/work/tools/openlane_working_dir/openlane/desgins/picrorv32a` new floder qill be ctreated with `runs` name
+<img width="816" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/5121b915-284e-44e4-a176-3bc41bc25982">
+* inside run directory we see afile with today date change directory to that file will see 
+```
+cmds.log    logs              PDK_SOURCES  results
+config.tcl  OPENLANE_VERSION  reports      tmp
+
+``
+* In the temp file, merged.lef file is available which was created in preparation time. if we open this merged.lef file, we get all the wire or layer level and cell level information.
+
+* Now `run_synthesis`
+  <img width="823" alt="4" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/a885a6ce-21c4-4369-816c-046c8a9cbd9f">
+* NOw  in `cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/08-05_23-43/reports/synthesis` folder will updated with synthesis result.
+  <img width="819" alt="2" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/9fa73268-3384-45db-b721-2acc59c2828e">
+
+
+
+
 
 
 

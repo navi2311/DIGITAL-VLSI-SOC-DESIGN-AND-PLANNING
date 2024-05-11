@@ -22,10 +22,16 @@
 *  <img width="764" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/a60bb9d3-d71c-44e4-afb5-887143f77dfa">
 ```
 Note:
-
+1. if chip area is 2 *2 sq units
+* then utilization is 1,aspect ratio is 1
+2. if chip area is 4*2 sq units
+* utilization is 0.5 which means 50  percentage area left and aspect ratio is 0.5 rectangle 
 
 
 ```
+* we can knnow the  shape of chip with `aspect ratio=height/weight
+<img width="880" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/5a313682-9294-404c-a98b-597386d7ca45">
+
 
 
 

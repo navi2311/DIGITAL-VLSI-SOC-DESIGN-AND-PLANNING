@@ -4,6 +4,10 @@
 
 ![Simple RISC-V Board](https://www.cnx-software.com/wp-content/uploads/2019/08/5-dollars-RISC-V-Development-Board.jpg)
 
+<details>
+<summary><strong>Overview</strong></summary>
+<br>
+
 - Every microcontroller board will have a chip, essential components, and interfaces with it.
 - **Package**: A container that holds the semiconductor die for mechanical protection, thermal management, and electrical performance.
   - Types include DIP (Dual In-line Package), QFP (Quad Flat Package), BGA (Ball Grid Array), and CSP (Chip Scale Package).
@@ -14,9 +18,13 @@
 
 - The core contains all the digital logic such as the processor and IPs (synthesizable IPs and non-synthesizable IPs).
 
+</details>
+
 ## SoC Design and OpenLANE
 
-When designing an ASIC chip, several components and tools are needed:
+<details>
+<summary><strong>SoC Components and Tools</strong></summary>
+<br>
 
 1. **RTL (Register Transfer Level) Design**
    - Describes the behavior and structure of the system using code that specifies data transfer and processing within the circuit.
@@ -29,9 +37,13 @@ When designing an ASIC chip, several components and tools are needed:
    ![PDK](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/109dc2b9-2148-4ed4-98a3-d6c53b55f7e7)
    - Crucial for ensuring that the ASIC can be successfully fabricated using a particular semiconductor manufacturing process.
 
+</details>
+
 ## Simplified RTL2GDS Flow
 
-![RTL2GDS Flow](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/00de52eb-fa3e-438c-8daa-b5f5e9edc5e1)
+<details>
+<summary><strong>RTL to GDSII Detailed Steps</strong></summary>
+<br>
 
 ### Synthesis
 
@@ -59,7 +71,13 @@ When designing an ASIC chip, several components and tools are needed:
 
 - Final verification steps include static timing analysis and physical verification (DRC and LVS).
 
+</details>
+
 ## Introduction to OpenLANE
+
+<details>
+<summary><strong>Understanding OpenLANE</strong></summary>
+<br>
 
 OpenLANE is a specialized tool designed for use with the SkyWater 130nm open PDK. It operates in two modes:
 
@@ -67,3 +85,5 @@ OpenLANE is a specialized tool designed for use with the SkyWater 130nm open PDK
 2. **Interactive Mode**: Allows users to execute commands and adjust at each design step.
 
 ![OpenLANE](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/5a9473bb-7b40-4de7-8df5-7824485ce49b)
+
+</details>

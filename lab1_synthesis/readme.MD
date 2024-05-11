@@ -32,7 +32,7 @@ Initialize the OpenLANE environment:
 package require openlane 0.9
 ```
 
-</details>
+
 
 ## Design Preparation
 

@@ -36,7 +36,7 @@
 
   ![Utilization Example](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/a60bb9d3-d71c-44e4-afb5-887143f77dfa)
 
-- The `Aspect Ratio` is calculated as height/width, which helps us understand the shape of the chip.
+- The `Aspect Ratio` is calculated as height/width, of the core; which helps us understand the shape of the chip.
 
   ![Aspect Ratio Example](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/5a313682-9294-404c-a98b-597386d7ca45)
 

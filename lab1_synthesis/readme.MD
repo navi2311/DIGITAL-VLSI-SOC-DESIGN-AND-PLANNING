@@ -36,7 +36,7 @@ prep -desgin filename
 cmds.log    logs              PDK_SOURCES  results
 config.tcl  OPENLANE_VERSION  reports      tmp
 
-```
+
 * In the temp file, merged.lef file is available which was created in preparation time. if we open this merged.lef file, we get all the wire or layer level and cell level information.
 
 * Now `run_synthesis`

@@ -67,7 +67,7 @@
 
 </details> <!-- Concept of Pre-placed Cells -->
 <details>
-  <summary> 3. surround pre-placed cells with De-coupling capacitors</summary>
+  <summary><strong> 3. Surround pre-placed cells with De-coupling capacitors</strong></summary>
 </details>
 
 </details> <!-- Chip Floor Planning Considerations -->

@@ -60,6 +60,8 @@
 - During the floor planning stage, these cells must be strategically placed to optimize chip performance and manufacturability. Considerations for placing pre-placed cells include access to power and ground lines, proximity to related cells, and minimizing critical path delays.
 
 - Effective placement of pre-placed cells helps in achieving optimal routing and can significantly reduce the likelihood of design iterations due to placement and routing issues.
+  <img width="1178" alt="5" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/f94175e4-1bdd-4d94-8409-e7f843837755">
+- 
 
 </details> <!-- Concept of Pre-placed Cells -->
 

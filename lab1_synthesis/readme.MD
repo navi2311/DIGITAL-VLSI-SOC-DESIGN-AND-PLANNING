@@ -17,3 +17,6 @@
 <br>
 
 1. Navigate to the OpenLANE directory:
+```
+cd Desktop/work/tools/openlane_working_dir/openlane
+```

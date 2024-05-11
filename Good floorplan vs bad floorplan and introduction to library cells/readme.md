@@ -5,7 +5,7 @@
 <details>
 <summary><strong>Chip Floor Planning Considerations</strong></summary>
 <br>
-- steps for floor plan
+- Steps for floor plan
 
 <details>
 <summary><strong>1. Utilization Factor and Aspect Ratio</strong></summary>
@@ -20,12 +20,12 @@
 
   ![Simple Netlist Example](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/aacdf7d4-4d68-405a-a5bf-be3217566d0f)
 
-- When defining core dimensions, we focus on the components' dimensions and ignore wiring at this stage.
+- When defining core dimensions, we focus on the components' dimensions and initially ignore wiring.
 - Using information from standard library cells, we obtain the length and width of each component required for the netlist, which we use to convert into physical dimensions (e.g., boxes like squares or rectangles).
 
   ![Component Dimensions](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/4d78174c-13d7-4882-ab33-6dff43f7e0b1)
 
-- We will now remove the wires and club them into a single plate.
+- We then remove the wires and club the components into a single plate.
 
   ![Clubbed Components](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/a60194d7-f2f8-4896-bb01-488319815af1)
 
@@ -33,7 +33,7 @@
 
   ![Netlist Area](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/8b381097-e2c2-4549-8cee-d1bf191dc3ec)
 
-- The `Utilization Factor` tells us how much of the core area the netlist occupies. If utilization is 1, it means no space is left on the core, which implies that we cannot add any extra cells later. Therefore, we usually aim for 50 to 60 percent utilization.
+- The `Utilization Factor` indicates how much of the core area the netlist occupies. If utilization is 1, it means no space is left on the core, which implies that we cannot add any extra cells later. Therefore, we usually aim for 50 to 60 percent utilization.
 
   ![Utilization Example](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/a60bb9d3-d71c-44e4-afb5-887143f77dfa)
 
@@ -53,16 +53,17 @@
 <summary><strong>2. Concept of Pre-placed Cells</strong></summary>
 <br>
 
-- Pre-placed cells are those components of the IC which have fixed positions on the chip. These typically include IP blocks, memory arrays, and other large functional blocks that have predefined physical dimensions and connectivity requirements.
-- We implement it once and use it multiple times on chip.
+- Pre-placed cells are components with fixed positions on the chip. These typically include IP blocks, memory arrays, and other large functional blocks that have predefined physical dimensions and connectivity requirements.
+- They are implemented once and used multiple times on the chip.
 
 - The placement of these cells is crucial as it influences the overall layout of the chip, impacting power distribution, signal integrity, and routing congestion.
 
 - During the floor planning stage, these cells must be strategically placed to optimize chip performance and manufacturability. Considerations for placing pre-placed cells include access to power and ground lines, proximity to related cells, and minimizing critical path delays.
 
 - Effective placement of pre-placed cells helps in achieving optimal routing and can significantly reduce the likelihood of design iterations due to placement and routing issues.
-  <img width="1178" alt="5" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/f94175e4-1bdd-4d94-8409-e7f843837755">
-- 
+  ![Pre-placed Cells Placement](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/f94175e4-1bdd-4d94-8409-e7f843837755)
+- Based on specific requirements, these cells will be placed near inputs or outputs depending on how the IP block is needed in the specifications.
+  ![Input Output Placement](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/06751ffe-3943-4259-a33b-6f5e4f4b84c3)
 
 </details> <!-- Concept of Pre-placed Cells -->
 

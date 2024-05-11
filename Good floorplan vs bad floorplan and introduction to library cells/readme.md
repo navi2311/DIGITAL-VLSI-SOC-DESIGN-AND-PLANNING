@@ -69,6 +69,9 @@
 </details> <!-- Concept of Pre-placed Cells -->
 <details>
   <summary><strong> 3. Surround pre-placed cells with De-coupling capacitors</strong></summary>
+  <br>
+  - Stabilize voltage levels and filter noise during high-frequency switching operations.
+  
 </details>
 
 </details> <!-- Chip Floor Planning Considerations -->

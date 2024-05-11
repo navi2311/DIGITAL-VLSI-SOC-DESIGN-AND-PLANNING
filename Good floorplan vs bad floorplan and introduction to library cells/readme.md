@@ -5,6 +5,7 @@
 <details>
 <summary><strong>Chip Floor Planning Considerations</strong></summary>
 <br>
+  
 - Steps for floor plan
 
 <details>

@@ -66,6 +66,9 @@
   ![Input Output Placement](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/06751ffe-3943-4259-a33b-6f5e4f4b84c3)
 
 </details> <!-- Concept of Pre-placed Cells -->
+<details>
+  <summary> 3. surround pre-placed cells with De-coupling capacitors</summary>
+</details>
 
 </details> <!-- Chip Floor Planning Considerations -->
 

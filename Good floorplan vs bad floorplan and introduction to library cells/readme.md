@@ -48,6 +48,20 @@
 
 </details> <!-- Utilization Factor and Aspect Ratio -->
 
+<details>
+<summary><strong>2. Concept of Pre-placed Cells</strong></summary>
+<br>
+
+- Pre-placed cells are those components of the IC which have fixed positions on the chip. These typically include IP blocks, memory arrays, and other large functional blocks that have predefined physical dimensions and connectivity requirements.
+
+- The placement of these cells is crucial as it influences the overall layout of the chip, impacting power distribution, signal integrity, and routing congestion.
+
+- During the floor planning stage, these cells must be strategically placed to optimize chip performance and manufacturability. Considerations for placing pre-placed cells include access to power and ground lines, proximity to related cells, and minimizing critical path delays.
+
+- Effective placement of pre-placed cells helps in achieving optimal routing and can significantly reduce the likelihood of design iterations due to placement and routing issues.
+
+</details> <!-- Concept of Pre-placed Cells -->
+
 </details> <!-- Chip Floor Planning Considerations -->
 
 </details> <!-- Floor Planning -->

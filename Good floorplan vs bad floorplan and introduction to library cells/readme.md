@@ -5,6 +5,7 @@
 <details>
 <summary><strong>Chip Floor Planning Considerations</strong></summary>
 <br>
+- steps for floor plan
 
 <details>
 <summary><strong>1. Utilization Factor and Aspect Ratio</strong></summary>

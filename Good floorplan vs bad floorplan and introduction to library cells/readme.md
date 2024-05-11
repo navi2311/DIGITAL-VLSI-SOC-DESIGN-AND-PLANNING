@@ -72,6 +72,18 @@
   <br>
   
   - Stabilize voltage levels and filter noise during high-frequency switching operations.
+  - every gate has a small capacitance which needs some amount of voltage(nose margin -voltage needed to get stable 1) to change logic from 0 to 1 for that particular gate.
+    <img width="1250" alt="7" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/e317d9e9-996e-47f3-87b7-5216db38be63">
+    <img width="1006" alt="9" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/313f2a2a-da43-4937-9ffb-d6e4b034e7fa">
+
+
+  - usually power supply are far from the circuits because of that some amount of voltage drop by the current reaches the circuits. this voltage may not have enough current to drive logic o to 1
+    
+  - so we use a decoupling capacitor it is placed near the digital circuit and has enough charge to support the switching voltage required by that particular circuit
+    <img width="1269" alt="10" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/bdbf9909-b140-4654-9c67-8ff5ba6e9d2a">
+    <img width="637" alt="11" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/ef8ffafb-39ea-4206-88e3-ab876b7c874b">
+
+
   
 </details>
 

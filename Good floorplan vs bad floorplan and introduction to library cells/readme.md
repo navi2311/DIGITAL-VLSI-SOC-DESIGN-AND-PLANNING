@@ -54,6 +54,7 @@
 <br>
 
 - Pre-placed cells are those components of the IC which have fixed positions on the chip. These typically include IP blocks, memory arrays, and other large functional blocks that have predefined physical dimensions and connectivity requirements.
+- We implement it once and use it multiple times on chip.
 
 - The placement of these cells is crucial as it influences the overall layout of the chip, impacting power distribution, signal integrity, and routing congestion.
 

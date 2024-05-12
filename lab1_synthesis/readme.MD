@@ -24,7 +24,7 @@ or
 ```
 cd $OPENLANE_ROOT
 ```
-- [Setting OpenLane Path](../issues/README.md#setting-openlane-path)
+- [Setting OpenLane Path](../issues/readme.md#setting-openlane-path)
 
 2. Start the Docker container and enter the OpenLANE shell:
 ```

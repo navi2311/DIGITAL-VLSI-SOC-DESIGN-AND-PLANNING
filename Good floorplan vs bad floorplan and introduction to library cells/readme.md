@@ -1,11 +1,12 @@
-# Floor Planning
+# Good floorplan vs bad floorplan and introduction to library cells
 
-<details>
-<summary><strong>Floor Planning</strong></summary>
-<br>
 
 <details>
 <summary><strong>Chip Floor Planning Considerations</strong></summary>
+<br>
+
+<details>
+<summary><strong>Chip Floor Planning Considerations Floor Planning</strong></summary>
 <br>
   
 - Steps for floor plan
@@ -90,11 +91,11 @@
 
 </details> <!-- Surround Pre-placed Cells with Decoupling Capacitors -->
 
-</details> <!-- Chip Floor Planning Considerations -->
-
-
-
 </details> <!-- Floor Planning -->
+
+
+
+</details> <!-- Chip Floor Planning Considerations -->
 <details>
 <summary><strong>Power Planning</strong></summary>
 <br>

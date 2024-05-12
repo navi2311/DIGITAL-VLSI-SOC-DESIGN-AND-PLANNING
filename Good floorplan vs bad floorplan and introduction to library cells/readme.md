@@ -2,11 +2,11 @@
 
 
 <details>
-<summary><strong>Chip Floor Planning Considerations</strong></summary>
+<summary><strong>Chip Floor Planning and power planning  Considerations</strong></summary>
 <br>
 
 <details>
-<summary><strong>Chip Floor Planning Considerations Floor Planning</strong></summary>
+<summary><strong> Floor Planning</strong></summary>
 <br>
   
 - Steps for floor plan
@@ -92,11 +92,6 @@
 </details> <!-- Surround Pre-placed Cells with Decoupling Capacitors -->
 
 </details> <!-- Floor Planning -->
-
-
-
-</details> <!-- Chip Floor Planning Considerations -->
-<details>
 <summary><strong>Power Planning</strong></summary>
 <br>
 
@@ -118,3 +113,9 @@ Power planning is  to ensure that every component on the chip receives stable an
 
 
 </details> <!-- Power Planning -->
+
+
+
+</details> <!-- Chip Floor Planning Considerations -->
+<details>
+

@@ -105,7 +105,8 @@ Power planning is crucial in VLSI design to ensure that every component on the c
 
 - **Grid-Based Power Distribution:** The layout uses a grid of power (Vdd) and ground (Vss) lines that intersect across the chip to provide every component with access to power. This setup minimizes voltage drops and power losses.
 
-  ![Power Planning Layout](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/power_planning_layout.png)
+  <img width="775" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/364a95da-a03d-4c95-8174-7b9758cfec8a">
+
 
 - **Strategic Placement of Components:** Components such as IP blocks and essential logic circuits are strategically located within this grid to optimize power delivery and minimize latency in power access.
 

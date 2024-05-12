@@ -99,7 +99,20 @@
 <summary><strong>Power Planning</strong></summary>
 <br>
 
-- Power planning involves the strategic placement of power and ground pads to ensure efficient distribution of power across the entire chip without significant drops.
-- It also involves the design of power grids to minimize voltage drops across the chip and ensure stable operation under all conditions.
+
+
+Power planning is crucial in VLSI design to ensure that every component on the chip receives stable and clean power. Here's how a typical power planning layout might look:
+
+- **Grid-Based Power Distribution:** The layout uses a grid of power (Vdd) and ground (Vss) lines that intersect across the chip to provide every component with access to power. This setup minimizes voltage drops and power losses.
+
+  ![Power Planning Layout](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/power_planning_layout.png)
+
+- **Strategic Placement of Components:** Components such as IP blocks and essential logic circuits are strategically located within this grid to optimize power delivery and minimize latency in power access.
+
+- **Decoupling Capacitors:** Interspersed throughout the grid, decoupling capacitors help stabilize the power supply by storing and discharging energy as needed. They are key in reducing noise and voltage fluctuations.
+
+- **Ensuring Uniformity and Stability:** The uniform distribution of power and ground connections, coupled with strategically placed decoupling capacitors, ensures that the entire chip operates stably under various conditions.
+
+This layout exemplifies the importance of meticulous power planning in maintaining chip performance and reliability.
 
 </details> <!-- Power Planning -->

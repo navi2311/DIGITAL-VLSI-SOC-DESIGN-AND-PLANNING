@@ -86,8 +86,11 @@
 
 
   
-</details>
+</details><!-- Surround pre-placed cells with De-coupling capacitors-->
 
 </details> <!-- Chip Floor Planning Considerations -->
+<detail>
+  <summary><strong>Power planning<strong/></summary>
+</detail>
 
 </details> <!-- Floor Planning -->

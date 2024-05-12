@@ -20,6 +20,10 @@
 ```
 cd Desktop/work/tools/openlane_working_dir/openlane
 ```
+or
+```
+cd $OPENLANE_ROOT
+```
 2. Start the Docker container and enter the OpenLANE shell:
 ```
 docker

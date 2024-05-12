@@ -92,6 +92,7 @@
 </details> <!-- Surround Pre-placed Cells with Decoupling Capacitors -->
 
 </details> <!-- Floor Planning -->
+<details>
 <summary><strong>Power Planning</strong></summary>
 <br>
 
@@ -117,5 +118,5 @@ Power planning is  to ensure that every component on the chip receives stable an
 
 
 </details> <!-- Chip Floor Planning Considerations -->
-<details>
+
 

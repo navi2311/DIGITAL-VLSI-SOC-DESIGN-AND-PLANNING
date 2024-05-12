@@ -92,6 +92,9 @@
 
 </details> <!-- Chip Floor Planning Considerations -->
 
+
+
+</details> <!-- Floor Planning -->
 <details>
 <summary><strong>Power Planning</strong></summary>
 <br>
@@ -100,5 +103,3 @@
 - It also involves the design of power grids to minimize voltage drops across the chip and ensure stable operation under all conditions.
 
 </details> <!-- Power Planning -->
-
-</details> <!-- Floor Planning -->

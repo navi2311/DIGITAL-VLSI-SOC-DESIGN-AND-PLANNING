@@ -1,3 +1,5 @@
+# Floor Planning
+
 <details>
 <summary><strong>Floor Planning</strong></summary>
 <br>
@@ -38,7 +40,7 @@
 
   ![Utilization Example](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/a60bb9d3-d71c-44e4-afb5-887143f77dfa)
 
-- The `Aspect Ratio` is calculated as height/width, of the core; which helps us understand the shape of the chip.
+- The `Aspect Ratio` is calculated as height/width of the core; which helps us understand the shape of the chip.
 
   ![Aspect Ratio Example](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/5a313682-9294-404c-a98b-597386d7ca45)
 
@@ -56,41 +58,47 @@
 
 - Pre-placed cells are components with fixed positions on the chip. These typically include IP blocks, memory arrays, and other large functional blocks that have predefined physical dimensions and connectivity requirements.
 - They are implemented once and used multiple times on the chip.
-
 - The placement of these cells is crucial as it influences the overall layout of the chip, impacting power distribution, signal integrity, and routing congestion.
-
 - During the floor planning stage, these cells must be strategically placed to optimize chip performance and manufacturability. Considerations for placing pre-placed cells include access to power and ground lines, proximity to related cells, and minimizing critical path delays.
-
 - Effective placement of pre-placed cells helps in achieving optimal routing and can significantly reduce the likelihood of design iterations due to placement and routing issues.
+
   ![Pre-placed Cells Placement](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/f94175e4-1bdd-4d94-8409-e7f843837755)
 - Based on specific requirements, these cells will be placed near inputs or outputs depending on how the IP block is needed in the specifications.
+
   ![Input Output Placement](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/06751ffe-3943-4259-a33b-6f5e4f4b84c3)
 
 </details> <!-- Concept of Pre-placed Cells -->
+
 <details>
-  <summary><strong> 3. Surround pre-placed cells with De-coupling capacitors</strong></summary>
-  <br>
+<summary><strong>3. Surround Pre-placed Cells with Decoupling Capacitors</strong></summary>
+<br>
+
+- Decoupling capacitors stabilize voltage levels and filter noise during high-frequency switching operations.
+- Every gate has a small capacitance which needs some amount of voltage (noise margin - voltage needed to get stable 1) to change logic from 0 to 1 for that particular gate.
+
+  ![Gate Capacitance](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/e317d9e9-996e-47f3-87b7-5216db38be63)
+  ![Detailed Gate Diagram](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/313f2a2a-da43-4937-9ffb-d6e4b034e7fa)
+
+- Usually, power supplies are far from the circuits, causing some voltage drop by the time current reaches the circuits. This voltage may not have enough current to drive logic from 0 to 1.
   
-  - Stabilize voltage levels and filter noise during high-frequency switching operations.
-  - every gate has a small capacitance which needs some amount of voltage(nose margin -voltage needed to get stable 1) to change logic from 0 to 1 for that particular gate.
-    <img width="1250" alt="7" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/e317d9e9-996e-47f3-87b7-5216db38be63">
-    <img width="1006" alt="9" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/313f2a2a-da43-4937-9ffb-d6e4b034e7fa">
+- So we use a decoupling capacitor placed near the digital circuit that has enough charge to support the switching voltage required by that particular circuit.
 
+  ![Decoupling Capacitor Placement](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/bdbf9909-b140-4654-9c67-8ff5ba6e9d2a)
+  ![Capacitor Function Detail](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/ef8ffafb-39ea-4206-88e3-ab876b7c874b)
 
-  - usually power supply are far from the circuits because of that some amount of voltage drop by the current reaches the circuits. this voltage may not have enough current to drive logic o to 1
-    
-  - so we use a decoupling capacitor it is placed near the digital circuit and has enough charge to support the switching voltage required by that particular circuit
-    <img width="1269" alt="10" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/bdbf9909-b140-4654-9c67-8ff5ba6e9d2a">
-    <img width="637" alt="11" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/ef8ffafb-39ea-4206-88e3-ab876b7c874b">
-  - so whenever switching happens for any particular block these decoupling capacitor take cares to proivde enough voltage required to drive logic o to logic 1
+- Whenever switching happens for any particular block, these decoupling capacitors provide enough voltage required to drive logic from 0 to 1.
 
-
-  
-</details><!-- Surround pre-placed cells with De-coupling capacitors-->
+</details> <!-- Surround Pre-placed Cells with Decoupling Capacitors -->
 
 </details> <!-- Chip Floor Planning Considerations -->
-<detail>
-  <summary><strong>Power planning<strong/></summary>
-</detail>
+
+<details>
+<summary><strong>Power Planning</strong></summary>
+<br>
+
+- Power planning involves the strategic placement of power and ground pads to ensure efficient distribution of power across the entire chip without significant drops.
+- It also involves the design of power grids to minimize voltage drops across the chip and ensure stable operation under all conditions.
+
+</details> <!-- Power Planning -->
 
 </details> <!-- Floor Planning -->

@@ -82,6 +82,7 @@
   - so we use a decoupling capacitor it is placed near the digital circuit and has enough charge to support the switching voltage required by that particular circuit
     <img width="1269" alt="10" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/bdbf9909-b140-4654-9c67-8ff5ba6e9d2a">
     <img width="637" alt="11" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/ef8ffafb-39ea-4206-88e3-ab876b7c874b">
+  - so whenever switching happens for any particular block these decoupling capacitor take cares to proivde enough voltage required to drive logic o to logic 1
 
 
   

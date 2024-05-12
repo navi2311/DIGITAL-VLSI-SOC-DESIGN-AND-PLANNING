@@ -24,7 +24,8 @@ or
 ```
 cd $OPENLANE_ROOT
 ```
-- [Setting the OPENLANE_ROOT environment variable is a way to tell your system where OpenLane is installed]()
+- [Setting OpenLane Path](../README.md#setting-openlane-path)
+
 2. Start the Docker container and enter the OpenLANE shell:
 ```
 docker

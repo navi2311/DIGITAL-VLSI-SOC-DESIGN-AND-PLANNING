@@ -48,11 +48,6 @@ package require openlane 0.9
 <br>
 
 - Open a new terminal and navigate to the designs directory in the OpenLANE working directory:
-```
-
-Certainly! Here's a complete markdown-ready content for your GitHub README to help users get familiar with open-source EDA tools, specifically OpenLANE. You can copy and paste this directly into your README 
-cd Desktop/work/tools/openlane_working_dir/openlane/designs
-```
 - Select the design, e.g., `picorv32a`:
 This directory contains multiple files such as `src`, `config.tcl` (which includes design-specific settings like clock configuration).
 

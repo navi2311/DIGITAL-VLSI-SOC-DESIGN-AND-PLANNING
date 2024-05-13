@@ -26,7 +26,7 @@ cd $OPENLANE_ROOT
 ```
 - [Setting OpenLane Path](../issues/readme.md#setting-openlane-path)
 
-2. Start the Docker container and enter the OpenLANE shell:
+2. Start the Docker container and to use the open lane  OpenLANE shell:
 ```
 docker
 ./flow.tcl -interactive
@@ -41,15 +41,21 @@ package require openlane 0.9
 
 
 
-## Design Preparation
+## We can start using the openlane for our design.
+
+- Open a new terminal and navigate to the designs directory in the OpenLANE working directory:
+```
+
+  cd Desktop/work/tools/openlane_working_dir/openlane/designs
+```
+- - Select the design, e.g., `picorv32a`:
+This directory contains multiple files such as `src`, and `config. tcl` (which includes design-specific settings like clock configuration and we have sky130 variant-specific tcl files ).
+
+
 
 <details>
 <summary><strong>Setting Up the Design Environment</strong></summary>
 <br>
-
-- Open a new terminal and navigate to the designs directory in the OpenLANE working directory:
-- Select the design, e.g., `picorv32a`:
-This directory contains multiple files such as `src`, `config.tcl` (which includes design-specific settings like clock configuration).
 
 - Prepare the design in the OpenLANE shell:
 ```

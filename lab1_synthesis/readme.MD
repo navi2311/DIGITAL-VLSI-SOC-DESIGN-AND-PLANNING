@@ -43,7 +43,7 @@ package require openlane 0.9
 
 ## We can start using the openlane for our design.
 
-- Open a new terminal and navigate to the designs directory in the [OpenLANE working directory:](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/blob/main/Reference/desgin_directory.png)
+- Open a new terminal and navigate to the designs directory in the ![OpenLANE working directory:](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/blob/main/Reference/desgin_directory.png)
 ```
 
   cd Desktop/work/tools/openlane_working_dir/openlane/designs

@@ -118,5 +118,10 @@ Power planning is  to ensure that every component on the chip receives stable an
 
 
 </details> <!-- Chip Floor Planning Considerations -->
+<details>
+<summary><strong> Library Binding and Placement</strong></summary>
+  
+</details><!--  Library Binding and Placement -->
+
 
 

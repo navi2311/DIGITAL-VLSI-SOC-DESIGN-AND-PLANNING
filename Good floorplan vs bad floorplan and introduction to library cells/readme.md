@@ -121,7 +121,7 @@ Power planning is  to ensure that every component on the chip receives stable an
 <details>
 <summary><strong> Library Binding and Placement</strong></summary>
 <br>
--  here we will be learning about placement and routing 
+- Here we will be learning about placement and routing.
   
 </details><!--  Library Binding and Placement -->
 

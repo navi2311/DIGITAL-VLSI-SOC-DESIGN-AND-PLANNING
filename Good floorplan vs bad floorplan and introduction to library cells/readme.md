@@ -113,30 +113,53 @@ Power planning is  to ensure that every component on the chip receives stable an
 
 
 
+
 </details> <!-- Power Planning -->
 
 
 
 </details> <!-- Chip Floor Planning Considerations -->
+
 <details>
-<summary><strong> Library Binding and Placement</strong></summary>
-<br><details>
-<summary><</strong></summary>
+<summary><strong>Library Binding and Placement</strong></summary>
 <br>
 
 - Here we will be learning about placement and routing.
+
 <details>
-<summary><strong>Netlist binding and initial place design</strong></summary>
+<summary><strong>Netlist Binding and Initial Place Design</strong></summary>
 <br>
 
-
+- Basically, the library has all the information like cells, size, and shape-related information of each component (gates, FF, macro, etc.), various flavors of the cell (when to drive output, etc.), and timing information.
   
-</details><!--  Netlist binding and initial place design -->
+  ![image](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/9b01e613-b0e0-49e9-a47f-fed67e78619d)
 
+- We take the netlist, remove all the wires, and place them in some order to get a square or rectangle shape as shown in the above figure.
   
-</details><!--  Library Binding and Placement -->
+- Now we place that netlist without wires in the floorplan.
+  
+  ![image](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/cdd9c76f-2a99-4185-98ff-bd517bbd67e4)
 
+- As we see in the figure, we will pre-place the cells in the floorplan stage only. We have to ensure that no cells are placed in pre-placed areas and it is not moved from its position `placement`.
+  
+  ![image](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/58390e82-ceee-4828-8920-eef998bd8d0d)
 
+- We will place all logic blocks as near as possible to inputs and outputs.
 
+</details><!-- Netlist Binding and Initial Place Design -->
 
+<details>
+<summary><strong>Optimized Placement</strong></summary>
+<br>
 
+- We will place buffers (repeaters) when we find the distance between each block is more, which will lead to data loss: `signal_integrity`.
+  
+- Area will be occupied, but we can have no data loss; we will place enough buffers.
+  
+  ![image](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/42b240eb-b5ff-4ed8-8729-990cd6eedfa6)
+
+- Once we find the optimized placement for each path, as we don't have a clock now, we assume the clock to be ideal, which means the time to reach the clock to flip-flop in the core is zero and run setup timing analysis.
+
+</details><!-- Optimized Placement -->
+
+</details><!-- Library Binding and Placement -->

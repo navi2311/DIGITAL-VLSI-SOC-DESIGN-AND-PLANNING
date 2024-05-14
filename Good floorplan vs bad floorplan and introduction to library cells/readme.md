@@ -120,10 +120,23 @@ Power planning is  to ensure that every component on the chip receives stable an
 </details> <!-- Chip Floor Planning Considerations -->
 <details>
 <summary><strong> Library Binding and Placement</strong></summary>
+<br><details>
+<summary><</strong></summary>
 <br>
+
 - Here we will be learning about placement and routing.
+<details>
+<summary><strong>Netlist binding and initial place design</strong></summary>
+<br>
+
+
+  
+</details><!--  Netlist binding and initial place design -->
+
   
 </details><!--  Library Binding and Placement -->
+
+
 
 
 

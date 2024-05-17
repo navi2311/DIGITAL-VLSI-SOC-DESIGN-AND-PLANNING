@@ -1,9 +1,5 @@
 ## Standard cell desgin using spice lab
-* Desgin a custom standar cell and use it in openlane flow 
-
-```
-git clone https://github.com/nickson-jose/vsdstdcelldesign.git
-```
+* In this lab basically we will spice netlist from [nickson-jose]( https://github.com/nickson-jose/vsdstdcelldesign.git) 
 <img width="1211" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/33a7c5e6-f915-4bbc-9e82-749b15621579">
 
 ```

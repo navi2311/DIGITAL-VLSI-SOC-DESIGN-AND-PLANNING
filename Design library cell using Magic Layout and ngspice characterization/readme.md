@@ -8,4 +8,11 @@
 
   <img width="1199" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/b305fe52-5998-408b-bdfb-d7b9d74d09ba">
 
+  * since we have tech file in standard cell directory
+    ```
+    magic -T sky130A-GDS.tech sky130_inv.mag
+    ```
+    <img width="1202" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/d9f624be-e8a9-4c0f-b7a9-299b960c00c6">
+
+
 

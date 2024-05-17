@@ -16,6 +16,9 @@
       * command:` magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &`
       <img width="428" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/39d55606-565c-4fae-b2a1-aa81b32d1b8c">
 
+      <img width="1042" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/870d4acf-142d-4bf9-8426-6f037218f5e3">
+
+
 
 
 

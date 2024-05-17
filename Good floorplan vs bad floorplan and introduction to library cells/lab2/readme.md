@@ -10,3 +10,6 @@
    <img width="1201" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/81e37500-684a-4f25-a812-07a37a507e96">
 
 
+5. `run_placement`
+
+

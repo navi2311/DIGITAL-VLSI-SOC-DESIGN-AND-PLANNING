@@ -10,6 +10,11 @@
    <img width="1201" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/81e37500-684a-4f25-a812-07a37a507e96">
 
 
-5. `run_placement`
+5. `run_placement`:
+      <img width="637" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/90c1b11d-4ab9-495e-9fee-ceecf19dfe5d">
+      command:` magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &`
+      <img width="428" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/39d55606-565c-4fae-b2a1-aa81b32d1b8c">
+
+
 
 

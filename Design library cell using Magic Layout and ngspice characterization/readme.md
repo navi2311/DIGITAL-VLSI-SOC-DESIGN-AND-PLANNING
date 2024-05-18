@@ -37,6 +37,8 @@ ext2spice
 
 ### Step 4: Simulation and Characterization
 After modifying the netlist as needed, run it through ngspice:
+<img width="1198" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/168d56da-2d53-4671-9275-716b67fa6271">
+
 ```
 ngspice sky130_inv.spice
 

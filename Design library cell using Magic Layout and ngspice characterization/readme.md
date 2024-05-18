@@ -3,11 +3,11 @@
 
 ## Standard Cell Design Using SPICE Lab
 
-In this lab, we will get the SPICE netlist from [nickson-jose](https://github.com/nickson-jose/vsdstdcelldesign.git).
+In this lab, we will get the custom invertor from [nickson-jose](https://github.com/nickson-jose/vsdstdcelldesign.git).
 
 ![image](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/33a7c5e6-f915-4bbc-9e82-749b15621579)
 
-First, we need the technology file to read the `.mag` file, so we copy the tech file from:
+need the technology file (sky130A-GDS.tech) to interpret the .mag files correctly in Magic. This file is copied from your OpenLane working directory to the directory where you cloned Nickson Jose's repository
 ```
 /Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic
 ```

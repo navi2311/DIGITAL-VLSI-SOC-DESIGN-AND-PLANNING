@@ -1,6 +1,6 @@
 
 
-```markdown
+
 ## Standard Cell Design Using SPICE Lab
 
 In this lab, we will get the SPICE netlist from [nickson-jose](https://github.com/nickson-jose/vsdstdcelldesign.git).

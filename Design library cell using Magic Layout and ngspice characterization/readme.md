@@ -39,6 +39,8 @@ ext2spice
 After modifying the netlist as needed, run it through ngspice:
 ```
 ngspice sky130_inv.spice
+
+```
 ![ngspice Output 1](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/629e88d1-8383-4c47-a45c-eea33f0a7d3e)
 ![ngspice Output 2](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/a4f0b786-f874-4e42-9fee-ef582a9b4314)
 

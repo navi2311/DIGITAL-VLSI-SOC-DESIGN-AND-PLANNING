@@ -1,4 +1,4 @@
-Your formatted GitHub README section for the SPICE lab looks comprehensive and well-structured. Here's a slightly refined version for clarity and alignment:
+
 
 
 ## Standard Cell Design Using SPICE Lab

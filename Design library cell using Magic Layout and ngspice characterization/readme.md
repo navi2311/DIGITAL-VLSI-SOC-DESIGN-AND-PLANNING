@@ -35,5 +35,11 @@ ext2spice
 A new folder will be created in the standard cell directory:
 ![image](https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/7b73a579-808f-4f64-bb78-ea6f02afcb97)
 ```
+* Changed the netlist per our requirement
+* `ngspice sky130_inv.spice`:
+  <img width="1280" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/629e88d1-8383-4c47-a45c-eea33f0a7d3e">
+  <img width="1101" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/a4f0b786-f874-4e42-9fee-ef582a9b4314">
+* from the graph we will obtain the characterisation of the cell(raise time,fall time,propagation delay,cell fall delay)
 
-This format maintains the structure you've used previously, ensuring consistency for easy pasting into your README file.
+
+

@@ -62,4 +62,22 @@ From the simulation graphs, we will obtain the characterization of the cell, inc
   <img width="1202" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/eb14297f-2710-4a55-85f6-be44217973c6">
 
 
+### step6: insert the custom cell in openlane flow
+* Now copy the  lef in `Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign` into the desgin directory of src
+  <img width="1211" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/4e155f97-4495-4548-83d7-632c6634d920">
+* Now copy libs files `Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign/libs` to desgin directory
+  <img width="1205" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/52fcf994-3548-4870-98df-2f799f1dac57">
+* Now we will change the config file to add the files in the flow
+  <img width="1196" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/6b311e66-4f46-4c7c-a505-4b502acca1f3">
+  ```
+  Note:
+  LIB_MIN:changed to LIB_FASTEST
+  LIB_MAX: changed to LIB_SLOWEST
+  some eror facing  with max andf min
+  ```
+
+* 
+
+
+
 

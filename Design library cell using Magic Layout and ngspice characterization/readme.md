@@ -76,7 +76,24 @@ From the simulation graphs, we will obtain the characterization of the cell, inc
   some eror facing  with max andf min
   ```
 
-* 
+* now in docker use `set lefs [glob $::env(DESIGN_DIR)/src/*.lef]`and `add_lefs -src $lefs`
+  <img width="1203" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/8b86ab9f-3940-4daa-ace8-b43b46efe2c4">
+* now   `run_synthesis`.it should also include our custom cell
+  <img width="1206" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/63736a9b-ef77-4564-97af-335ae8314264">
+* Now go to `Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-05_19-59/reports/synthesis`
+  <img width="1201" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/63293fe1-673c-4140-abdf-ed1314d59f19">
+
+  ### steps to update the slack
+  * we will set synth_straegy,buffering and sizing to 1
+  ```
+  set ::env(SYNTH_STRATEGY) 1
+  echo $::env(SYNTH_BUFFERING) #to cehck what is has set to
+  set ::env(SYNTH_SIZING) 1
+  ```
+  <img width="1199" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/4eecf8e5-ed59-462b-8083-bb424e7ee6ec">
+
+
+
 
 
 

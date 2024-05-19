@@ -92,6 +92,17 @@ From the simulation graphs, we will obtain the characterization of the cell, inc
   ```
   <img width="1199" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/4eecf8e5-ed59-462b-8083-bb424e7ee6ec">
 
+  * now
+    ```
+    init_floorplan
+
+    place_io
+
+    tap_decap_or
+    ```
+    then run_placement
+    `magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &`
+
 
 
 

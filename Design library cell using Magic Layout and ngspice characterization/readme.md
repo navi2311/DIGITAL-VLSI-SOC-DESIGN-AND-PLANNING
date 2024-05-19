@@ -48,4 +48,18 @@ ngspice sky130_inv.spice
 
 From the simulation graphs, we will obtain the characterization of the cell, including rise time, fall time, propagation delay, and cell fall delay.
 
+### Step5 : Understand the role of track in PNR
+
+* before  LEF (Library Exchange Format) extraction we should track alignment(input and output port should align with the intersection of the horizontal and vertical gride line)
+* directory of track_info `Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd`
+  <img width="1201" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/e4a4bb28-97c7-41e6-acb3-8b20e7b279c9">
+  <img width="1208" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/72ef1473-897e-4c0c-a2fe-9ed8e4af4aab">
+  <img width="1102" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/e3fc4af7-bd37-4d77-b57d-b48d7a5ba0ac">
+
+
+
+* lef file will be created
+  <img width="1202" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/eb14297f-2710-4a55-85f6-be44217973c6">
+
+
 

@@ -13,3 +13,9 @@ then  exit openroad
 * `gen_pdn`
  <img width="1188" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/3a1d0fb3-f060-4dca-8475-f0faafdc00b0">
 * `run_routing`
+  <img width="1187" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/23e8074e-6d64-44f3-acc2-6f44438941bc">
+  <img width="1191" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/16ae12be-4e0a-4684-9352-54514657a814">
+
+* <img width="908" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/0b6a8587-4c5d-4653-8993-8c745207d6be">
+
+

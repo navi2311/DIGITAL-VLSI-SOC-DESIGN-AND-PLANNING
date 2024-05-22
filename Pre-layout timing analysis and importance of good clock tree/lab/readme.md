@@ -23,5 +23,7 @@ then  exit openroad
 ```
   python3 main.py --def_file /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-05_20-55/results/routing/picorv32a.def --lef_file /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-05_20-55/tmp/merged.lef
 ```
+<img width="1278" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/1704d4e5-54e1-4ea2-a85e-2837370072d8">
+
 
 

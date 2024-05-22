@@ -19,5 +19,9 @@ then  exit openroad
 * <img width="908" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/0b6a8587-4c5d-4653-8993-8c745207d6be">
 <img width="1277" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/9f5b2c37-517f-4a79-b3d5-acd112e8f49a">
 
+* in scrpits folder
+```
+  python3 main.py --def_file /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-05_20-55/results/routing/picorv32a.def --lef_file /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-05_20-55/tmp/merged.lef
+```
 
 

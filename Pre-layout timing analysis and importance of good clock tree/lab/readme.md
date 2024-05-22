@@ -17,5 +17,7 @@ then  exit openroad
   <img width="1191" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/16ae12be-4e0a-4684-9352-54514657a814">
 
 * <img width="908" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/0b6a8587-4c5d-4653-8993-8c745207d6be">
+<img width="1277" alt="image" src="https://github.com/navi2311/DIGITAL-VLSI-SOC-DESIGN-AND-PLANNING/assets/134842758/9f5b2c37-517f-4a79-b3d5-acd112e8f49a">
+
 
 
